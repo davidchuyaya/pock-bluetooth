@@ -1,0 +1,6 @@
+framework module Pods_Quit {
+  umbrella header "Pods-Quit-umbrella.h"
+
+  export *
+  module * { export * }
+}
