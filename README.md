@@ -7,5 +7,4 @@ Simple code based on the Pock template that lets you quit a running application.
 </p>
 
 All thanks to pigigaldi for the framework and widget.
-
 https://github.com/pock/pock
