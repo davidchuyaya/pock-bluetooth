@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		061C1D0B27A53A0F0003F7FD /* BluetoothButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061C1D0A27A53A0E0003F7FD /* BluetoothButton.swift */; };
 		A1A1DF2F279F911A00051CB6 /* quitWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A1DF2E279F911A00051CB6 /* quitWidget.swift */; };
 		A1A1DF39279F919300051CB6 /* PockKit in Frameworks */ = {isa = PBXBuildFile; productRef = A1A1DF38279F919300051CB6 /* PockKit */; };
 		AE5F88C645759647020C1E10 /* Pods_Quit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684FD4F9C124BE7915DBB01A /* Pods_Quit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		061C1D0927A5310F0003F7FD /* Quit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quit-Bridging-Header.h"; sourceTree = "<group>"; };
+		061C1D0A27A53A0E0003F7FD /* BluetoothButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothButton.swift; sourceTree = "<group>"; };
 		684FD4F9C124BE7915DBB01A /* Pods_Quit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A1DF2A279F911A00051CB6 /* Quit.pock */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Quit.pock; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A1DF2E279F911A00051CB6 /* quitWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quitWidget.swift; sourceTree = "<group>"; };
@@ -55,6 +58,7 @@
 		A1A1DF20279F911A00051CB6 = {
 			isa = PBXGroup;
 			children = (
+				061C1D0927A5310F0003F7FD /* Quit-Bridging-Header.h */,
 				A1A1DF2C279F911A00051CB6 /* Quit */,
 				A1A1DF2B279F911A00051CB6 /* Products */,
 				43D7A8914B6189085DF27FE0 /* Pods */,
@@ -84,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A1DF2E279F911A00051CB6 /* quitWidget.swift */,
+				061C1D0A27A53A0E0003F7FD /* BluetoothButton.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -198,7 +203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Install widget.\necho \"[${PRODUCT_NAME}.pock] Starting installation\"\nFILEPATH=$TARGET_BUILD_DIR/$PRODUCT_NAME.pock \nopen \"$FILEPATH\"";
+			shellScript = "# Install widget.\necho \"[${PRODUCT_NAME}.pock] Starting installation\"\nFILEPATH=$TARGET_BUILD_DIR/$PRODUCT_NAME.pock \nopen \"$FILEPATH\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -207,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				061C1D0B27A53A0F0003F7FD /* BluetoothButton.swift in Sources */,
 				A1A1DF2F279F911A00051CB6 /* quitWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +276,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Quit-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -323,6 +330,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Quit-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -334,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Q5EHV775H;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application\\ Support/Pock/Widgets";
@@ -355,7 +363,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Q5EHV775H;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Quit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Application\\ Support/Pock/Widgets";

@@ -73,7 +73,7 @@
 		1744673E0677E54A774B393C818A3B29 /* Pods-Quit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quit-dummy.m"; sourceTree = "<group>"; };
 		2195293DD20962CCBBBCBFCDD9787F72 /* PKTouchBarNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKTouchBarNavigationController.swift; path = PockKit/Sources/Controllers/PKTouchBarNavigationController.swift; sourceTree = "<group>"; };
 		2428C7A34D19A0958E5B2F7BBE991092 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35BF6C0342846917760472249299EF /* PKTouchBarMouseController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKTouchBarMouseController.swift; path = PockKit/Sources/Controllers/PKTouchBarMouseController.swift; sourceTree = "<group>"; };
 		300594385E8248EF020FAA447E1A26FB /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
 		35FC4ECF5CEAC982D48AFCFA4D429715 /* PKDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKDetailView.swift; path = PockKit/Sources/Views/PKDetailView.swift; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		68C5875C517B040D9DCAC374611D5620 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
 		6BF9E43891AC58BEF1DD315BED8B950F /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
 		6D0BDE6F2390CE29177CC37C77039C02 /* Pods-Quit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quit-acknowledgements.plist"; sourceTree = "<group>"; };
-		6D326CCACC5674AD0F10B08465235262 /* PockKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PockKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D326CCACC5674AD0F10B08465235262 /* PockKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PockKit; path = PockKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7649C12AFDD12F4FF865B33C16CDBB03 /* PockKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PockKit.release.xcconfig; sourceTree = "<group>"; };
 		81EBEAE1E54655378393CA2611FD26F1 /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
 		834C9E27736A109DFFE67E64103E9815 /* PKWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKWidget.swift; path = PockKit/Sources/Protocols/PKWidget.swift; sourceTree = "<group>"; };
@@ -93,13 +93,13 @@
 		8C104501CB2EE47AC0B0C5989C330E88 /* Pods-Quit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quit-umbrella.h"; sourceTree = "<group>"; };
 		93E5A068AED1ACE4BE6999486526D8AE /* Pods-Quit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quit-Info.plist"; sourceTree = "<group>"; };
 		96DC2B1C7D20EB89C15948047D6E8B46 /* PKView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKView.swift; path = PockKit/Sources/Views/PKView.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4901A3929DB8C0EC3BD940B8D2DE336 /* PKScreenEdgeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKScreenEdgeController.swift; path = PockKit/Sources/Protocols/PKScreenEdgeController/PKScreenEdgeController.swift; sourceTree = "<group>"; };
 		AC11A7A4CF18C6225F2640F0A24A3C60 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
 		B3FDF7F9B5D8DB195845FEA168F4F1EA /* ScrollingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollingTextView.swift; path = PockKit/3rd/ScrollingTextView.swift; sourceTree = "<group>"; };
 		B691073E555786E5B09CECC963ADE0DE /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
 		BC28DB1AD77E71250A5A259FE80D7AA0 /* Pods-Quit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quit.release.xcconfig"; sourceTree = "<group>"; };
-		C02D5F4C417AC02A238D092E592BE1E3 /* Pods_Quit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02D5F4C417AC02A238D092E592BE1E3 /* Pods-Quit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Quit"; path = Pods_Quit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DF66AD5615C1D632AF49C56546EA03 /* PKDraggingInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKDraggingInfoView.swift; path = PockKit/Sources/Views/PKDraggingInfoView.swift; sourceTree = "<group>"; };
 		CC67E82EB73C9268158FAFA0E3022959 /* PKButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKButton.swift; path = PockKit/Sources/Views/PKButton.swift; sourceTree = "<group>"; };
 		D305D8566B2B4DF25556945B2FB4B9C2 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
@@ -179,9 +179,9 @@
 		1F63076A1D1BCD89AFC2C5F08E01F29F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D326CCACC5674AD0F10B08465235262 /* PockKit.framework */,
-				C02D5F4C417AC02A238D092E592BE1E3 /* Pods_Quit.framework */,
-				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+				6D326CCACC5674AD0F10B08465235262 /* PockKit */,
+				C02D5F4C417AC02A238D092E592BE1E3 /* Pods-Quit */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,6 +202,7 @@
 				5B9EDE19B226C4AA754959EC8D079088 /* Sources */,
 				0AA1A367F37D20C6595D97E75A2B28F6 /* Support Files */,
 			);
+			name = PockKit;
 			path = PockKit;
 			sourceTree = "<group>";
 		};
@@ -244,6 +245,7 @@
 				FD86F5AD113EACE659A543911385CA0C /* TinyEdgeInsets.swift */,
 				B604A28360C474BE2403209A558AC275 /* Support Files */,
 			);
+			name = TinyConstraints;
 			path = TinyConstraints;
 			sourceTree = "<group>";
 		};
@@ -344,7 +346,7 @@
 			);
 			name = PockKit;
 			productName = PockKit;
-			productReference = 6D326CCACC5674AD0F10B08465235262 /* PockKit.framework */;
+			productReference = 6D326CCACC5674AD0F10B08465235262 /* PockKit */;
 			productType = "com.apple.product-type.framework";
 		};
 		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
@@ -362,7 +364,7 @@
 			);
 			name = TinyConstraints;
 			productName = TinyConstraints;
-			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints */;
 			productType = "com.apple.product-type.framework";
 		};
 		535F130E9F345522364E648FCFABD0C2 /* Pods-Quit */ = {
@@ -382,7 +384,7 @@
 			);
 			name = "Pods-Quit";
 			productName = Pods_Quit;
-			productReference = C02D5F4C417AC02A238D092E592BE1E3 /* Pods_Quit.framework */;
+			productReference = C02D5F4C417AC02A238D092E592BE1E3 /* Pods-Quit */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -392,7 +394,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -512,6 +514,7 @@
 			baseConfigurationReference = BC28DB1AD77E71250A5A259FE80D7AA0 /* Pods-Quit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -548,6 +551,7 @@
 			baseConfigurationReference = 069ED1F25D6FD38FA703133B4ADE8C3B /* Pods-Quit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -583,6 +587,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81EBEAE1E54655378393CA2611FD26F1 /* TinyConstraints.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -684,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D4C399CB08A0CCA90705D81FE5857A69 /* PockKit.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -781,6 +787,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 300594385E8248EF020FAA447E1A26FB /* TinyConstraints.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -816,6 +823,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7649C12AFDD12F4FF865B33C16CDBB03 /* PockKit.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

@@ -2,11 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This button toggles bluetooth</string>
 	<key>CFBundlePackageType</key>
 	<string>BNDL</string>
 	<key>NSPrincipalClass</key>
 	<string>Quit.quitWidget</string>
 	<key>PKWidgetAuthor</key>
-	<string>Kyle Gorter</string>
+	<string>David Chu</string>
 </dict>
 </plist>
